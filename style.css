@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 120px;
+    padding: 30px 120px;
     
 }
 
@@ -114,4 +114,36 @@ button{
     font-size: xx-large;
     color: hsl(35, 77%, 62%);
     padding: 20px;
+}
+
+.footer{
+    display: flex;
+    padding: 30px 120px;
+    justify-content: center;
+    height: 20%;
+}
+
+.article{
+    display: flex;
+
+}
+
+.article img{
+    height: 100%;
+    width: 100%;
+}
+
+.article-text{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-around;
+}
+
+.article-text h1{
+    color: hsl(233, 8%, 79%);
+}
+
+.subtitle{
+    font-weight: bold;
 }
